@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    @apply text-gray-800;
+}
+
+#ze-header {
+    @apply bg-no-repeat bg-cover bg-center;
+}
+
+.section {
+    @apply py-16 px-4 text-center;
+}
+
+.section-container {
+    @apply mx-auto;
+}
+
+.section.section-reverse {
+    @apply bg-gray-900 text-white;
+}
+
+.section-header {
+    @apply uppercase font-bold text-3xl;
+}
+
+.skill-title {
+    @apply text-2xl;
+}
+
+.tags-list {
+    @apply py-2;
+}
+
+.tags-list > span {
+    @apply bg-teal-500 m-1 px-4 py-2 rounded inline-block;
+}
+
+.project {
+    @apply mt-16 text-center .items-center;
+}
+
+.project-thumbnail {
+    @apply w-full;
+}
+
+.project-thumbnail img {
+    @apply w-full;
+}
+
+.project-title {
+    @apply text-2xl font-bold py-2 text-left;
+}
+
+.project-description {
+    @apply text-justify;
+}
+
+.project-link {
+    @apply mt-4;
+}
+
+.project-link a {
+    @apply text-white bg-teal-500 px-4 py-2 transition ease-in-out duration-150;
+}
+
+.project-link a:hover {
+    @apply bg-teal-900;
+}
+
+.icon {
+    @apply  h-4 w-4 inline fill-current;
+}
