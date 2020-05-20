@@ -7,7 +7,7 @@ export default class ProjectItem extends React.Component {
                 <div className="project-thumbnail md:pr-2 md:w-2/5">
                     <img src={this.props.img} alt="" />
                 </div>
-                <div className="pl-2 md:w-3/5">
+                <div className="md:pl-2 md:w-3/5">
                     <div className="project-title">{this.props.name}</div>
                     <div className="project-description">
                         {this.props.children}
