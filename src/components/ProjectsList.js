@@ -25,7 +25,7 @@ export default class ProjectsList extends React.Component {
                     </ProjectItem>
                     <ProjectItem
                         name="Cocos2d Creator Spaceshooter game"
-                        img="./images/project-fake-02.jpg"
+                        img="./images/spaceshooter.jpg"
                         link="https://github.com/zellitsss/cocos2d-creator-spaceshooter">
                         <p>Just a basic Space Shooter game that's built with Cocos2d Creator using JavaScript.</p>
                         <p>Actually, I've made a Spaceshooter game in the Training section to become a Game Developer. It's built with C++, but at this time, some libs are outdated and can not be built with VS 2019. So I decided to make another version.</p>
@@ -34,7 +34,7 @@ export default class ProjectsList extends React.Component {
 
                     <ProjectItem
                         name="Pusher: C++ game"
-                        img="./images/project-fake-03.jpg"
+                        img="./images/pusher.png"
                         link="https://github.com/zellitsss/pusher-cpp-basic-game">
                         <p>Also a basic game, but it came with some great features of C++11</p>
                     </ProjectItem>

@@ -44,11 +44,12 @@ body {
 }
 
 .project-thumbnail {
-    @apply w-full;
+    @apply w-full overflow-y-hidden;
+    max-height: 600px;
 }
 
 .project-thumbnail img {
-    @apply w-full;
+    @apply max-w-full object-fill;
 }
 
 .project-title {
