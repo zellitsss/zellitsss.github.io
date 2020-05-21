@@ -45,11 +45,11 @@ body {
 
 .project-thumbnail {
     @apply w-full overflow-y-hidden;
-    max-height: 600px;
+    max-height: 480px;
 }
 
 .project-thumbnail img {
-    @apply max-w-full object-fill;
+    @apply w-full object-cover;
 }
 
 .project-title {

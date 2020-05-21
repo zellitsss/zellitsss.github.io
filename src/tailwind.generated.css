@@ -14415,12 +14415,12 @@ body {
 .project-thumbnail {
   width: 100%;
   overflow-y: hidden;
-  max-height: 600px;
+  max-height: 480px;
 }
 
 .project-thumbnail img {
-  max-width: 100%;
-  object-fit: fill;
+  width: 100%;
+  object-fit: cover;
 }
 
 .project-title {

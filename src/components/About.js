@@ -12,11 +12,11 @@ export default class About extends React.Component {
                             I'm a Game Developer and Web developer.
                         </p>
                         <p>
-                            With 2-years experienced in Game development, I like to continue making some great games, and also facing new challenges in Web development (especially Front-End)
+                            With 2-years experienced in Game development, I'd like to continue making some great games, and also facing new challenges in Web development (especially Front-End)
                         </p>
                     </div>
                     <div className="py-4">
-                        <a href="#" className="font-bold uppercase bg-teal-500 text-white px-4 py-2 hover:bg-teal-900 transition ease duration-150">Download my CV</a>
+                        <a href="./LamLeViet_CV_en.pdf" className="font-bold uppercase bg-teal-500 text-white px-4 py-2 hover:bg-teal-900 transition ease duration-150">Download my CV</a>
                     </div>
                 </div>
             </section>
